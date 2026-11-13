@@ -5,7 +5,7 @@ export const config = {
   passcodeHint: 'Hint: a date we both love 💕',
   wrongMessage: "Oops, that's not it, cutie 🙈 Try again!",
   // Put an mp3 in /public/music and set e.g. '/music/song.mp3'. Empty = built-in music-box lullaby.
-  musicSrc: '',
+  musicSrc: '/music/happyb.mp4',
 
   intro: { heading: 'Someone Special Has Sent You Something...', button: 'Open Your Surprise' },
   passcodeScreen: { title: 'Secret Passcode', sub: 'Enter the 4 magic digits' },
