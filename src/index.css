@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body, #root { height: 100%; }
+body { margin: 0; font-family: 'Playfair Display', serif; color: #6b3a55; overscroll-behavior: none; -webkit-tap-highlight-color: transparent; }
+button { touch-action: manipulation; }
+@media (prefers-reduced-motion: reduce) { .animate-floatUp, .animate-flicker { animation: none; } }
